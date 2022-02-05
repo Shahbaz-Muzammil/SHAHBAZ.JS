@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function getFullname() {
+        var firstName = document.getElementById("fname").value;
+        var lastname = document.getElementbyid("lname").value;
+        document.getElementbyid("fullname").value = firstname + " " + lastname;
+      }
+    </script>
+  </head>
+  <body>
+    first name <input type="name" id="fname" /> <br />
+    last name <input type="name" id="lname" /><br />
+    <button onclick="getFullname()">ok</button><br />
+    <button>cancel</button><br />
+    full Name:<input type="text" id="fullname" />
+  </body>
+</html>

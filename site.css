@@ -1,0 +1,120 @@
+.navbar {
+  background-color: black;
+  overflow: auto;
+  height: 100px;
+}
+.navbar.hover {
+  border: orangered 2px solid;
+}
+li:hover {
+  border: orangered 2px solid;
+  height: 2px;
+}
+.navbar ul {
+  text-decoration: none;
+  list-style: none;
+}
+.navbar li {
+  color: white;
+  float: left;
+  /* display:inline-flex */
+  padding: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  margin-top: 20px;
+  margin-left: 50px;
+  /* padding: 50px; */
+}
+.section2 {
+  /* box-shadow: black 0px 0px 50px; */
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  height: 700px;
+  background-image: url(/pexels-sourav-mishra-2317519.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  height: 500px;
+  padding-top: 200px;
+  z-index: 2;
+}
+
+.searchbar {
+  width: 300px;
+  height: 20px;
+}
+.btn {
+  color: whitesmoke;
+  height: 25px;
+  width: 100px;
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: black;
+}
+.heading1 {
+  text-shadow: orangered 5px 6px 7px;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+}
+.heading2 {
+  text-shadow: black 5px 6px 4px;
+}
+h2 {
+  color: orangered;
+  font-size: xx-large;
+  text-align: right;
+  margin: 76px 50px;
+  margin-top: 300px;
+  border: black solid 2px;
+  border-style: ridge;
+}
+.h21 {
+  margin: 10px;
+  text-align: right;
+  margin-top: 100px;
+  margin-left: 300px;
+  float: right;
+}
+
+.h22 {
+  margin: 10px 30px;
+  text-align: right;
+  float: right;
+  margin-left: 400px;
+}
+
+.h23 {
+  margin: 10px 80px;
+  text-align: right;
+  float: right;
+}
+section {
+  border: black solid 2px;
+  box-shadow: orangered 15px 15px 15px;
+  box-shadow: orangered -15px -15px 15px;
+}
+.main1 {
+  color: black;
+  margin-top: 250px;
+}
+.anchor {
+  border: dimgray solid 5px;
+  width: 500px;
+  height: 30%;
+}
+a {
+  text-align: center;
+}
+#box {
+  position: absolute;
+  height: 400px;
+}
+h2 {
+  position: relative;
+  display: inline-block;
+  right: 100px;
+  z-index: 5;
+}

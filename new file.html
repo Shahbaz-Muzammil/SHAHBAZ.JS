@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+      function getFullname() {
+        var f = document.getElementById("fname").value;
+        var l = document.getElementById("lname").value;
+        document.getElementById("fullname").value = f + " " + l;
+      }
+      function clearAll() {
+        document.getElementById("fname").value = "";
+        document.getElementById("lname").value = "";
+        document.getElementById("fullname").value = "";
+      }
+    </script>
+  </head>
+  <body>
+    first name <input type="name" id="fname" /> <br />
+    last name <input type="name" id="lname" /><br />
+    <button onclick="getFullname()">ok</button><br />
+    <button onclick="clearAll()">cancel</button><br />
+    full Name:<input type="text" id="fullname" />
+  </body>
+</html>
