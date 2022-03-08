@@ -8,7 +8,7 @@
 //       letter_Count += 1;
 //       }
 //   }
-//   return letter_Count;
+//   return letter_Count;   
 // }
 
 // console.log(char_count('maharshtra', 'm'));
@@ -99,7 +99,7 @@
 
 
 
-// const str = "maharshtra";
+const str =[ "maharshtra"];
 // const arr1 = str.split("");
 // const obj ={};
 // arr1.forEach((ele)=>{
@@ -107,6 +107,12 @@
 // });
 // console.log(obj);
 
-const str ="india is my country";
-const obj={};
-str.split("").forEach(ele=>)
+// const str ="india is my country";
+// const obj={};
+// str.split("").forEach(ele=>)
+const arr1=str.reduce(function(obj,b){
+obj[b]=++obj[b] || 1;
+return obj
+},{}
+)
+console.log(obj)

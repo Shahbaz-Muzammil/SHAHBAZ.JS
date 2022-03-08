@@ -1,8 +1,7 @@
-/// const points = [1,2,34,6,8,5,6,7,4]
-
-// // const result = points.filter((num) => num % 2 === 0 );
-// const result = points.filter((item)=> item % 2 !== 0 )
+// const points = [1,2,34,6,8,5,6,7,4]
+    
 // console.log(result);
+// const result = points.filter((item)=> item % 2 !== 0 )
 
 // const mapped = points.map((item) => item * 5);
 // console.log(mapped);
@@ -23,16 +22,18 @@
 //     {  title:"nvnjn", Size:5, color:"white"},
 //     {  title:"nlvlwn", Size:9, color:"black"},
 //     {  title:"bckwbkjb", Size:8, color:"green"},
-//     {  title:"ncnnjnvnvnn", Size:9, color:"white"},
+//     {  title:"ncnnjnvnvnn", Size:9, color:"white"}
 // ];
-// const sorted = products.sort((a,b)=> ( a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
+// const sorted = products.sort((a,b)=> 
+//( a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
 // console.log(sorted);
 
 // const filtered = products.filter((footwear)=>footwear.color === "black" );
 // const filtered = products.filter((footwear)=>footwear.Size> 7 );
-// const filtered = products.filter((footwear)=>footwear.Size < 8 && footwear.color ==="black");
+//  const filtered = products.filter((footwear)=>footwear.Size < 8 && footwear.color ==="black");
 // console.log(filtered);
-// const sorted = products.sort(a,b)=> ( a.title.tolowercase() > b.title.tolowercase() ? 1 : 1 );
+// const sorted = products.sort(a,b)=>
+// ( a.title.tolowercase() > b.title.tolowercase() ? 1 : 1 );
 
 // console.log(sorted);
 // sort
@@ -44,6 +45,7 @@
 // 1-----1-----descending order
 
 // array method concat
+
 // const arr1 = [1,2,3];
 // const arr2 = [4,5,6];
 // const arr3 = arr2.concat(arr1);
@@ -52,15 +54,17 @@
 
 
 //removal of particular data----->>>>>>>
+
 //  const newArray = [1,2,3,4,5,7,8,];
 //  const popped = newArray.pop();
-// //  console.log(newArray);
+//  console.log(newArray);
 //  console.log(popped);
+
 // last in work ---->>>>
 
 
 
-// const pushed = newArray.push(8,4);
+// const pushed = newArray.push(1000);
 // console.log(pushed);
 // console.log(newArray); 
 
@@ -69,7 +73,7 @@
 
 
 // const shifted = newArray.shift();
-// console.log(newArray);
+// console.log(shifted);
 
 
 // add number in start ----->>>>>
@@ -120,8 +124,8 @@
 
 //splice method   splice (index ,quantity of element ) to be remove and it impact on array)
 // const result=alpha.splice(2,5);
+// const result=alpha.splice(2,2,"abs");
 // console.log(result);
-// const result=alpha.splice(2,2,"abs","abc");
 
 
 // every method in array ( every element should be less than 6 only true it show true ------->>>>>>>>>
@@ -154,8 +158,8 @@
 // join method ------>>>>>.
 
 // const arr=["w","i","c","k",];
-// //    const result=arr.join("");
-//    const result=arr.join("+");
+//    const result=arr.join("");
+//    const result=arr.join("");
 //    console.log(result);
 // fill method is used to add any element in array at any possition
 // javascript constructed method
@@ -163,7 +167,7 @@
 // console.log(arr.fill());
 
 
-const arr =["a","b","C","d","e"];
+// const arr =["a","b","C","d","e"];
 
 
 
@@ -179,9 +183,15 @@ const arr =["a","b","C","d","e"];
 // const newArray= [...newarrr1,...[newarrr2]];
 // console.log(newArray);
 
+// const spArray=[ 1, 2, 3, 4, 5, 6, 7, [
+//     1, 2, 3, 4,
+//     5, 6, 7
+//   ] ]
+//  const spreadArray=spArray.flat()
+//  console.log(spreadArray);
 
-const name2 = [1, 2, 3,];
-console.log(name2.split()[2]);
+// const name2 = [1, 2, 3,];
+// console.log(name2.split()[2]);
 
 
 

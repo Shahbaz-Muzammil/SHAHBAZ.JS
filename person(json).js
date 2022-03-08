@@ -21,8 +21,10 @@ const persons = { data: [
 
     ],
 };
-// persons.data.filter(item=> item.city==="pune")
-// persons.data.map(item=> `Mr.${item.fname} ${item.lname} ${item.age} ${item.city}`);----->>>>> literal method
+//  const shahbaz=persons.data.filter(item=> item.city==="pune")
+const shahbaz=persons.data.map(item=> `Mr.${item.fname} ${item.lname} ${item.age} ${item.city}`);
+// ----->>>>> literal method
 // persons.data.filter(item=> item.age<20)
 // persons.data.map(item=>  item.made + "-"+item.color); vanilla method 
 
+console.log(shahbaz)
