@@ -12,5 +12,5 @@ const person2 = {fname:"jhon",lname:"Snow",age:40,city:"Nanded"};
 // console.log(person.getName.bind(person2)());
 
 console.log(getName.bind(person)("Nanded"));
-// console.log(getName.call(person,"Nanded",64581258));
-// console.log(getName.apply(person,["Nanded",56684548518]));
+console.log(getName.call(person,"Nanded",64581258));
+console.log(getName.apply(person,["Nanded",56684548518]));

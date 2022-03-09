@@ -1,17 +1,17 @@
-// function getFullName(firstname,lastname){
-//     return{
-//         firstname:firstname,
-//         lastname,
-//         getFullName(){
-//             return `First Name:$(this.firstname),Last Name:$(this.lastname)`;
+function getFullName(firstname,lastname){
+    return{
+        firstname:firstname,
+        lastname,
+        getFullName(){
+            return `First Name:${this.firstname} Last Name:${this.lastname}`;
 
-//         },
-//     };
-// }
+        },
+    };
+}
 // const output = getFullName("john","walker");
-// const output2 = getFullName("john","wick") ;
+const output2 = getFullName("john","wick") ;
 // console.log(output.getFullName());
-// console.log(output2);
+console.log(output2);
 
 
 

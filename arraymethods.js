@@ -16,14 +16,17 @@
 // const reduce = points.reduce((acc,curr) =>{ return acc + curr},20 );
 // console.log(reduce);
 
-// const products = [
-//     {  title:"ABC", Size:7, color:"black"},
-//     {  title:"kcbb", Size:6, color:"green"},
-//     {  title:"nvnjn", Size:5, color:"white"},
-//     {  title:"nlvlwn", Size:9, color:"black"},
-//     {  title:"bckwbkjb", Size:8, color:"green"},
-//     {  title:"ncnnjnvnvnn", Size:9, color:"white"}
-// ];
+const products = [
+    {  title:"ABC", Size:7, color:"black"},
+    {  title:"kcbb", Size:6, color:"green"},
+    {  title:"nvnjn", Size:5, color:"white"},
+    {  title:"nlvlwn", Size:9, color:"black"},
+    {  title:"bckwbkjb", Size:8, color:"green"},
+    {  title:"ncnnjnvnvnn", Size:9, color:"white"}
+];
+
+const lower=products.map(elem=>elem.color==="white")
+console.log(lower)
 // const sorted = products.sort((a,b)=> 
 //( a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
 // console.log(sorted);
