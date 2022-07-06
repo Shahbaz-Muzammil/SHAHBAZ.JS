@@ -7,6 +7,14 @@ arr.forEach((element => {
 }))
 console.log(max);
 
+let sum =function (a){
+    return function (b){
+      return a*b
+    }
+    
+  }
+  console.log(sum(5)(6))
+
 // bignuminarray
 // const arr = [1, 7, 8, 3, 4, 9, 2, 5, 1];
 
