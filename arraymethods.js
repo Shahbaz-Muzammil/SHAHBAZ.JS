@@ -175,12 +175,12 @@ console.log(lower)
 
 
 
-// const obj= {value:2, name:"abc", number:5};
-// const newarrr1 = [1,2,3,4,5,6,7];
-// const newarrr2 = [1,2,3,4,5,6,7];
+const obj= {value:2, name:"abc", number:5};
+const newarrr1 = [1,2,3,4,5,6,7];
+const newarrr2 = [1,2,3,4,5,6,7];
 
-// const newoobj ={...obj,name:"cba"};
-// console.log(newoobj);
+const newoobj ={...obj,name:"cba"};
+console.log(newoobj);
  
 
 // const newArray= [...newarrr1,...[newarrr2]];
