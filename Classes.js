@@ -49,3 +49,8 @@ const arr =[1,2,[3],[4,[5,6]]];
  const output = arr.join(1
     )
  console.log(output);
+const arr1=[1,2,34,5,6]
+
+const print=arr1.forEach((elem)=>{
+   
+})

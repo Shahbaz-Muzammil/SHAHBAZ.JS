@@ -35,7 +35,10 @@
 //   eternals = eternals + value[i];
 // }
 // console.log(eternals);
+  
 
 
+const arr="1,2,3,456"
+console.log(arr)
 
 

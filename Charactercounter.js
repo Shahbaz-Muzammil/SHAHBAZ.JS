@@ -105,13 +105,13 @@ console.log(map)
 
 
 
-const str = "maharshtra"
-const arr1 = str.split("");
-const obj ={};
-arr1.forEach((ele)=>{
-    obj[ele] = obj[ele] ? obj[ele] +1 : 1;
-});
-console.log(obj);
+// const str = "maharshtra"
+// const arr1 = str.split("");
+// const obj ={};
+// arr1.forEach((ele)=>{
+//     obj[ele] = obj[ele] ? obj[ele] +1 : 1;
+// });
+// console.log(obj);
 
 // const str ="india is my country";
 // const obj={};
