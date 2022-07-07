@@ -20,3 +20,6 @@ let sum =function (a){
 
 // const max = arr.reduce((acc , curr) => Math.max (acc, curr ));
 // console.log(max);
+const add(){
+
+}

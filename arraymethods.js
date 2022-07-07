@@ -16,17 +16,17 @@
 // const reduce = points.reduce((acc,curr) =>{ return acc + curr},20 );
 // console.log(reduce);
 
-const products = [
-    {  title:"ABC", Size:7, color:"black"},
-    {  title:"kcbb", Size:6, color:"green"},
-    {  title:"nvnjn", Size:5, color:"white"},
-    {  title:"nlvlwn", Size:9, color:"black"},
-    {  title:"bckwbkjb", Size:8, color:"green"},
-    {  title:"ncnnjnvnvnn", Size:9, color:"white"}
-];
+// const products = [
+//     {  title:"ABC", Size:7, color:"black"},
+//     {  title:"kcbb", Size:6, color:"green"},
+//     {  title:"nvnjn", Size:5, color:"white"},
+//     {  title:"nlvlwn", Size:9, color:"black"},
+//     {  title:"bckwbkjb", Size:8, color:"green"},
+//     {  title:"ncnnjnvnvnn", Size:9, color:"white"}
+// ];
 
-const lower=products.map(elem=>elem.color==="white")
-console.log(lower)
+// const lower=products.map(elem=>elem.color==="white")
+// console.log(lower)
 // const sorted = products.sort((a,b)=> 
 //( a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1));
 // console.log(sorted);
@@ -175,12 +175,12 @@ console.log(lower)
 
 
 
-const obj= {value:2, name:"abc", number:5};
-const newarrr1 = [1,2,3,4,5,6,7];
-const newarrr2 = [1,2,3,4,5,6,7];
+// const obj= {value:2, name:"abc", number:5};
+// const newarrr1 = [1,2,3,4,5,6,7];
+// const newarrr2 = [1,2,3,4,5,6,7];
 
-const newoobj ={...obj,name:"cba"};
-console.log(newoobj);
+// const newoobj ={...obj,name:"cba"};
+// console.log(newoobj);
  
 
 // const newArray= [...newarrr1,...[newarrr2]];
@@ -197,9 +197,44 @@ console.log(newoobj);
 // console.log(name2.split()[2]);
 
 
+const arr=[
+    ["shahbaz",25,"M.sc"],
+    ["fahim",32,"M.Sc"],
+    ["rahamn",33,"poly"]
+]
+
+// console.log(arr[2][2])
+
+console.log(arr[0][2])
+for(var a=0; a<3; a++){
+    for(var b=0; b<3; b++ ){
+        console.log(arr[a][b])
+    }
+
+}
 
 
-
+const arr1=[
+    ["shabaz",25,"M.Sc"],
+    ["rahman",31,"Poly"],
+    ["Fahim",30,"M.Sc"],
+    ["hani",2,"MD"],
+    ["Kulsum",5,"MD"],
+    
+    ]
+    document.write(arr1.length)
+    document.write("<table border='1px' cellspacing='2'>")
+    
+    for(var a=0; a<arr1.length; a++){
+    document.write("<tr>")
+    for(var b=0; b<arr1[a].length; b++){ 
+    document.write("<td>"+
+    arr1[a][b]+"</td>")
+    }
+    document.write("<tr>")
+    
+    }
+    document.write("</table>")
 
 
 
