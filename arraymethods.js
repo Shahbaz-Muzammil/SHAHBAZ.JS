@@ -200,41 +200,44 @@
 const arr=[
     ["shahbaz",25,"M.sc"],
     ["fahim",32,"M.Sc"],
-    ["rahamn",33,"poly"]
+    ["rahamn",33,"poly"],
+    ["hani",2,"MD"],
+    ["Kulsum",5,"MD"],
+
 ]
 
 // console.log(arr[2][2])
 
 console.log(arr[0][2])
-for(var a=0; a<3; a++){
-    for(var b=0; b<3; b++ ){
+for(var a=0; a<5; a++){
+    for(var b=0; b<5; b++){
         console.log(arr[a][b])
     }
 
 }
 
 
-const arr1=[
-    ["shabaz",25,"M.Sc"],
-    ["rahman",31,"Poly"],
-    ["Fahim",30,"M.Sc"],
-    ["hani",2,"MD"],
-    ["Kulsum",5,"MD"],
+// const arr1=[
+//     ["shabaz",25,"M.Sc"],
+//     ["rahman",31,"Poly"],
+//     ["Fahim",30,"M.Sc"],
+//     ["hani",2,"MD"],
+//     ["Kulsum",5,"MD"],
     
-    ]
-    document.write(arr1.length)
-    document.write("<table border='1px' cellspacing='2'>")
+//     ]
+//     document.write(arr1.length)
+//     document.write("<table border='1px' cellspacing='2'>")
     
-    for(var a=0; a<arr1.length; a++){
-    document.write("<tr>")
-    for(var b=0; b<arr1[a].length; b++){ 
-    document.write("<td>"+
-    arr1[a][b]+"</td>")
-    }
-    document.write("<tr>")
+//     for(var a=0; a<arr1.length; a++){
+//     document.write("<tr>")
+//     for(var b=0; b<arr1[a].length; b++){ 
+//     document.write("<td>"+
+//     arr1[a][b]+"</td>")
+//     }
+//     document.write("<tr>")
     
-    }
-    document.write("</table>")
+//     }
+//     document.write("</table>")
 
 
 
