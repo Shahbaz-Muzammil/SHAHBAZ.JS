@@ -47,6 +47,36 @@
 
 // console.log(arr)
 
+const arr= new Array(3)
+
+
+// for(var i=0; i<=3; i++){
+// arr[i]=prompt("enter the value of array")
+// }
+ 
+
+// console.log(arr)
+
 
 
 // JBDCKJDSBCKJBs
+
+
+
+const data=[
+    ["shahbaz","Muzammil",25],
+    ["muzammil","shahbaz",24],
+    [25,"muzammil","shahbaz"]
+    ]
+    
+    document.write("<table collapse border=1px>")
+    for(var i=0; i<data.length; i++){
+    document.write("<tr>")
+    for(var j=0; j<data.length; j++){
+    document.write("<td>",data[i][j],"</td>")
+    
+    }
+    document.write("</tr>")
+    document.write("<br>")
+    }
+    document.write("</table>")
