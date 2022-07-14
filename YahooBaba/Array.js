@@ -82,7 +82,7 @@
 //     document.write("</table>")
 
 
-    const array=["shahbaz","muzammil"]
+    const array=["shahbaz","muzammil",25]
 
     array[0]="mujju"
     delete array[1]
